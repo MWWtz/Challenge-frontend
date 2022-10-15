@@ -1,0 +1,22 @@
+.grosery{
+    list-style: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product{
+    width: 20%;
+    padding: 5px;
+    justify-content: space-around;
+    .description{
+        text-align: left;
+    }
+    .votes{
+        float: right;
+        .vote-btn{
+            margin: 3px;
+        }
+    }
+
+}

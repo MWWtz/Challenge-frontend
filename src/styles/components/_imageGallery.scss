@@ -1,0 +1,26 @@
+.imageGallery_container{
+    background: #e3e3e3;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image_container{
+    position: relative;
+    padding: 5px;
+    .remove{
+        z-index: 9;
+        background: none;
+        border: none;
+        color: rgb(208, 201, 201);
+        font-weight: 600;
+        font-size: large;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        &:hover{
+            color: rgb(232, 69, 69);
+            font-size: x-large;
+        }
+    }
+}

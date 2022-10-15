@@ -1,0 +1,11 @@
+.rating {
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    .star{
+       color: aliceblue;
+    }   
+    .active {color:yellow}
+}
