@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       {/* Render here each component from the "components" directory */}
-      {/* <h3>'Message' test</h3>
+      <h3>'Message' test</h3>
       <Message />
       <br />
       <br />
@@ -40,7 +40,7 @@ export default function App() {
       <h3>'Grocery' test</h3>
       <Grocery />
       <br />
-      <br /> */}
+      <br />
       <h3>'ListItemsForNavigation' test</h3>
       <ListItemsForNavigation />
       <br />
