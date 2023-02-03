@@ -134,8 +134,8 @@ export function TeamsList() {
       </button>
 
       <ul className="teams">
-        {teams.map(({ name, totalScore, players }) => (
-          <li>
+        {teams.map(({ name, totalScore, players }, index) => (
+          <li key={index}>
             <p>
               {" "}
               <b>Team Name</b> {name}

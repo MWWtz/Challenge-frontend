@@ -19,7 +19,7 @@ export function Message() {
   };
   return (
     <>
-      <a href="#" onClick={handleToggle}>
+      <a href="/#" onClick={handleToggle}>
         Want to buy a new car?
       </a>
       {showMessage ? <p>Call +11 22 33 44 now!</p> : null}
